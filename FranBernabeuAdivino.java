@@ -1,20 +1,12 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package franbernabeuadivino;
 
 import java.util.Scanner;
 
-/**
- *
- * @author Virginia
- */
 public class FranBernabeuAdivino {
     public static void main(String[] args) {
         int n = 0,cont = 0;
-        int x = (int) (500 *Math.random());
+        int x = (int) (40 *Math.random());
+        x= x+10;
         try ( //System.out.print(x);
                 Scanner sc = new Scanner(System.in)) {
             do {
@@ -31,5 +23,3 @@ public class FranBernabeuAdivino {
         }
     }
 }
-        // TODO code application logic here
-   
